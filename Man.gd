@@ -25,8 +25,8 @@ func _physics_process(_delta):
 	if Input .is_action_just_pressed("Jump") and .is_on_floor():
 		velocity.y = JUMPFORCE
 	
-	#if not is_on_floor():
-	#        $AnimatedSprite.play("Jump")
+	if not is_on_floor():
+		$AnimatedSprite.play("Jump")
 	
 	velocity = move_and_slide(velocity,Vector2.UP)
 	

@@ -23,7 +23,7 @@ wait_time = 0.1
 position = Vector2( 0, 2 )
 shape = SubResource( 2 )
 
-[node name="Icon" type="Sprite" parent="."]
+[node name="Icon" type="Sprite" parent="." groups=["Bullet"]]
 position = Vector2( -1, 1 )
 scale = Vector2( 0.21875, 0.21875 )
 texture = ExtResource( 1 )

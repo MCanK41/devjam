@@ -27,6 +27,7 @@ frames = SubResource( 1 )
 
 [node name="RayCast2D" type="RayCast2D" parent="."]
 position = Vector2( 0, 213 )
+enabled = true
 
 [node name="sides_checker" type="Area2D" parent="."]
 position = Vector2( 1, 1 )
@@ -43,10 +44,12 @@ shape = SubResource( 3 )
 
 [node name="RayCast2D2" type="RayCast2D" parent="."]
 position = Vector2( 0, 164 )
+enabled = true
 cast_to = Vector2( -58, 0 )
 
 [node name="RayCast2D3" type="RayCast2D" parent="."]
 position = Vector2( 0, 164 )
+enabled = true
 cast_to = Vector2( -114, 0 )
 
 [node name="Timer2" type="Timer" parent="RayCast2D3"]

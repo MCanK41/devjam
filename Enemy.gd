@@ -37,9 +37,9 @@ func _physics_process(_delta):
 	
 	
 
-#func _on_sides_checker_body_entered(body):
-#	if body.is_in_group("Bullet"):
-#		queue_free()
+func _on_sides_checker_body_entered(body):
+	if body.is_in_group("Bullet"):
+		queue_free()
 
 
 
